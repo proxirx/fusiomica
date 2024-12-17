@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fusiomica sp. z o.o. - A biotechnology company specializing in protein engineering and drug discovery, bridging Polish and Cambridge biotech environments.">
+    <title>Fusiomica - Protein Engineering & Drug Discovery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #003366;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        img.logo {
+            width: 150px;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+        .highlight {
+            color: #003366;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer span.email {
+            display: none;
+        }
+    </style>
+    <script>
+        // JavaScript to display email without bots crawling it
+        document.addEventListener("DOMContentLoaded", function () {
+            const emailUser = "contact";
+            const emailDomain = "fusiomica.com";
+            document.getElementById("email").innerHTML = emailUser + "@" + emailDomain;
+            document.getElementById("email").style.display = "inline";
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fusiomica</h1>
+        <p>Protein Engineering & Drug Discovery</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#mission">Our Mission</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="intro">
+            <img src="fusiomica_logo.png" alt="Fusiomica Logo" class="logo">
+            <p>
+                <span class="highlight">Fusiomica sp. z o.o.</span> is a biotechnology company specializing in <span class="highlight">protein engineering</span> and <span class="highlight">drug discovery</span>. 
+                Based in Kraków at the <span class="highlight">Małopolska Centrum Biotechnologii</span>, we aim to bridge the Polish and Cambridge biotech environments.
+            </p>
+            <p>
+                Founded by scientists who met in <span class="highlight">Cambridge, UK</span>, our company integrates international expertise to tackle the most challenging drug discovery problems.
+            </p>
+        </section>
+        <section id="mission" class="intro">
+            <h2>Our Mission</h2>
+            <p>
+                At Fusiomica, we are committed to advancing biotechnology through innovative solutions in protein engineering. Our team collaborates globally to develop cutting-edge approaches that accelerate drug discovery and deliver value to patients worldwide.
+            </p>
+        </section>
+        <section id="contact" class="intro">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please email us at: <span id="email"></span></p>
+            <p>Visit us at our office:</p>
+            <p><strong>Fusiomica sp. z o.o.</strong><br>
+               Szlak 77/222, 31-153 Kraków, Poland</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Fusiomica sp. z o.o. All Rights Reserved.</p>
+        <span class="email"></span>
+    </footer>
+</body>
+</html>
