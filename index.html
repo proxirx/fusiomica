@@ -36,20 +36,12 @@
             color: #003366;
             font-weight: bold;
         }
-        img.logo2 {
-            height: 150px;
-            display: block;
-            margin: 0 auto 1rem;
-        }
-        .highlight {
-            color: #003366;
-            font-weight: bold;
-        }
         .image-container {
             display: flex;
+            flex-wrap: wrap; /* Allow wrapping for responsiveness */
             justify-content: center;
             align-items: center;
-            gap: 10px;
+            gap: 20px; /* Add space between logos */
             margin-top: 20px;
         }
         .image-container a {
@@ -58,6 +50,23 @@
         .image-container img {
             height: 100px;
             object-fit: contain;
+            filter: grayscale(100%); /* Apply grayscale */
+            transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .image-container img:hover {
+            filter: grayscale(0%); /* Remove grayscale on hover */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+        .logo2 {
+            height: 150px;
+            display: block;
+            margin: 0 auto 1rem;
+            filter: grayscale(100%);
+            transition: filter 0.3s ease, transform 0.3s ease;
+        }
+        .logo2:hover {
+            filter: grayscale(0%);
+            transform: scale(1.05);
         }
         footer {
             background-color: white;
@@ -83,16 +92,15 @@
             <p>
                 Our aim is to tackle the most challenging problems in drug discovery, leveraging <span class="highlight">novel technologies</span> and prior experience from the most distinguished <span class="highlight">academic</span> and <span class="highlight">commercial institutions</span>.
             </p>
-            <!-- Images Section -->
+            <!-- Logo Section -->
             <a href="https://astrazeneca.com"><img src="az.png" alt="AstraZeneca" class="logo2"></a>
-
             <div class="image-container">
-                <a href="https://www.tum.de" target="_blank"><img src="tum.gif" alt="Technical Univesity Munich"></a>
+                <a href="https://www.tum.de" target="_blank"><img src="tum.gif" alt="Technical University Munich"></a>
                 <a href="https://www2.mrc-lmb.cam.ac.uk" target="_blank"><img src="lmb.png" alt="MRC Laboratory of Molecular Biology"></a>
                 <a href="https://www.oxford.ac.uk" target="_blank"><img src="oxford.webp" alt="Oxford University"></a>
                 <a href="https://www.biochem.mpg.de" target="_blank"><img src="mpi.png" alt="Max Planck Society"></a>
             </div>
-            <!-- End of Images Section -->
+            <!-- End of Logo Section -->
             <p>For inquiries, please email us at: <strong>contact@fusiomica.com</strong></p>
             <p>
                 <strong>Fusiomica sp. z o.o.</strong><br>
