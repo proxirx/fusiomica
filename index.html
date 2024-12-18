@@ -9,6 +9,7 @@
     <title>Fusiomica - Protein Engineering for Drug Discovery</title>
 
     <style>
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -30,6 +31,10 @@
             filter: invert(1); /* Invert colors for a negative effect */
             mix-blend-mode: screen; /* Blends well with dark background */
         }
+        header h1 {
+            margin: 0;
+            line-height: 1.2;
+        }
         .container {
             padding: 2rem;
             max-width: 1200px;
@@ -43,6 +48,24 @@
             color: #003366;
             font-weight: bold;
         }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; /* Allow wrapping for responsiveness */
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Add space between logos */
+            margin-top: 20px;
+        }
+        .image-container img {
+            height: 100px;
+            object-fit: contain;
+            filter: grayscale(100%); /* Apply grayscale */
+            transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .image-container img:hover {
+            filter: grayscale(0%); /* Remove grayscale on hover */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
         footer {
             background-color: white;
             color: #333;
@@ -55,7 +78,11 @@
 <body>
     <header>
         <img src="fusiomica_logo.png" alt="Fusiomica Logo" class="logo">
-        <h1>Protein Engineering for Drug Discovery</h1>
+        <h1>
+            Protein<br>
+            Engineering for<br>
+            Drug Discovery
+        </h1>
     </header>
     <div class="container">
         <section class="intro">
@@ -71,6 +98,12 @@
                 <strong>Fusiomica sp. z o.o.</strong><br>
                 Szlak 77/222, 31-153 Kraków, Poland
             </p>
+            <div class="image-container">
+                <a href="https://www.tum.de" target="_blank"><img src="tum.gif" alt="Technical University Munich"></a>
+                <a href="https://www2.mrc-lmb.cam.ac.uk" target="_blank"><img src="lmb.png" alt="MRC Laboratory of Molecular Biology"></a>
+                <a href="https://www.oxford.ac.uk" target="_blank"><img src="oxford.webp" alt="Oxford University"></a>
+                <a href="https://www.biochem.mpg.de" target="_blank"><img src="mpi.png" alt="Max Planck Society"></a>
+            </div>
         </section>
     </div>
     <footer>
