@@ -45,20 +45,23 @@
             font-weight: bold;
         }
         .team {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: space-between;
+            display: table;
+            width: 100%;
             margin-top: 2rem;
+            border-spacing: 20px;
+        }
+        .team-row {
+            display: table-row;
         }
         .team-member {
+            display: table-cell;
             background: #f9f9f9;
             border: 1px solid #ddd;
             border-radius: 8px;
             padding: 1rem;
-            flex: 1 1 calc(50% - 20px);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            vertical-align: top;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .team-member img.photo {
             width: 120px;
@@ -99,8 +102,16 @@
             margin-top: 2rem;
         }
         @media (max-width: 768px) {
+            .team {
+                display: block;
+            }
+            .team-row {
+                display: block;
+            }
             .team-member {
-                flex: 1 1 100%;
+                display: block;
+                margin-bottom: 20px;
+                width: 100%;
             }
         }
     </style>
@@ -133,22 +144,24 @@
 
         <!-- Team Section -->
         <section class="team">
-            <div class="team-member">
-                <img src="founder1.jpg" alt="Founder 1" class="photo">
-                <h3>Founder Name 1</h3>
-                <p>Short bio about the first founder, highlighting their expertise and role in the company.</p>
-                <div class="company-logos">
-                    <img src="company1.png" alt="Company 1">
-                    <img src="company2.png" alt="Company 2">
+            <div class="team-row">
+                <div class="team-member">
+                    <img src="founder1.jpg" alt="Founder 1" class="photo">
+                    <h3>Founder Name 1</h3>
+                    <p>Short bio about the first founder, highlighting their expertise and role in the company.</p>
+                    <div class="company-logos">
+                        <img src="company1.png" alt="Company 1">
+                        <img src="company2.png" alt="Company 2">
+                    </div>
                 </div>
-            </div>
-            <div class="team-member">
-                <img src="founder2.jpg" alt="Founder 2" class="photo">
-                <h3>Founder Name 2</h3>
-                <p>Short bio about the second founder, emphasizing their background and contributions.</p>
-                <div class="company-logos">
-                    <img src="company3.png" alt="Company 3">
-                    <img src="company4.png" alt="Company 4">
+                <div class="team-member">
+                    <img src="founder2.jpg" alt="Founder 2" class="photo">
+                    <h3>Founder Name 2</h3>
+                    <p>Short bio about the second founder, emphasizing their background and contributions.</p>
+                    <div class="company-logos">
+                        <img src="company3.png" alt="Company 3">
+                        <img src="company4.png" alt="Company 4">
+                    </div>
                 </div>
             </div>
         </section>
