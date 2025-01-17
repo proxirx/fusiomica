@@ -49,6 +49,15 @@
             width: 100%;
             margin-top: 2rem;
             border-spacing: 20px;
+            text-align: center;
+        }
+        .team-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .team-header h2 {
+            font-size: 1.8rem;
+            color: #6a0dad;
         }
         .team-row {
             display: table-row;
@@ -110,8 +119,9 @@
             }
             .team-member {
                 display: block;
-                margin-bottom: 20px;
-                width: 100%;
+                margin: 0 auto 20px;
+                width: calc(100% - 40px);
+                box-sizing: border-box;
             }
         }
     </style>
@@ -144,6 +154,9 @@
 
         <!-- Team Section -->
         <section class="team">
+            <div class="team-header">
+                <h2>Meet Our Founders</h2>
+            </div>
             <div class="team-row">
                 <div class="team-member">
                     <img src="founder1.jpg" alt="Founder 1" class="photo">
