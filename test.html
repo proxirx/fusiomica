@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fusiomica sp. z o.o. - A biotechnology company specializing in utilisation of protein engineering and AI in drug discovery, bridging Polish and Cambridge biotech environments.">
+    <title>Fusiomica - Protein Engineering for Drug Discovery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to left, #6a0dad, #003366);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        header img.logo {
+            width: 150px;
+            filter: invert(1);
+            mix-blend-mode: screen;
+        }
+        header h1 {
+            margin: 0;
+            line-height: 1.2;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .highlight {
+            color: #003366;
+            font-weight: bold;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .team-member {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            width: calc(50% - 20px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .team-member img.photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        .team-member h3 {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        .team-member p {
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .company-logos {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 1rem;
+        }
+        .company-logos img {
+            height: 40px;
+            object-fit: contain;
+            filter: grayscale(100%);
+            transition: filter 0.3s;
+        }
+        .company-logos img:hover {
+            filter: grayscale(0%);
+        }
+        footer {
+            background: linear-gradient(to left, #6a0dad, #003366);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .team-member {
+                width: 100%;
+            }
+        }
+    </style>
+    <script>
+        function displayEmail() {
+            const user = "contact";
+            const domain = "fusiomica.com";
+            document.getElementById("email").innerHTML = `<a href="mailto:${user}@${domain}">${user}@${domain}</a>`;
+        }
+        window.onload = displayEmail;
+    </script>
+</head>
+<body>
+    <header>
+        <img src="fusiomica_logo.png" alt="Fusiomica Logo" class="logo">
+        <h1>
+            Protein<br>
+            Engineering for<br>
+            Drug Discovery
+        </h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <p>
+                <span class="highlight">Fusiomica sp. z o.o.</span> is a biotechnology company specializing in the <span class="highlight">utilisation of protein engineering and AI</span> in <span class="highlight">drug discovery</span>. 
+                Founded by experienced pharma/biotech managers with strong <span class="highlight">Cambridge links</span> and based in Kraków at the <span class="highlight"><a href="https://mcb.uj.edu.pl" target="_blank">Małopolskie Centrum Biotechnologii UJ</a></span>, we aim to bridge the Polish and Cambridge biotech environments.
+            </p>
+            <p>For inquiries, please email us at: <span id="email">[email protected]</span></p>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team">
+            <div class="team-member">
+                <img src="founder1.jpg" alt="Founder 1" class="photo">
+                <h3>Founder Name 1</h3>
+                <p>Short bio about the first founder, highlighting their expertise and role in the company.</p>
+                <div class="company-logos">
+                    <img src="company1.png" alt="Company 1">
+                    <img src="company2.png" alt="Company 2">
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="founder2.jpg" alt="Founder 2" class="photo">
+                <h3>Founder Name 2</h3>
+                <p>Short bio about the second founder, emphasizing their background and contributions.</p>
+                <div class="company-logos">
+                    <img src="company3.png" alt="Company 3">
+                    <img src="company4.png" alt="Company 4">
+                </div>
+            </div>
+        </section>
+        <!-- End of Team Section -->
+    </div>
+
+    <footer>
+        <strong>Fusiomica sp. z o.o.</strong><br>
+        Szlak 77/222, 31-153 Kraków | MCB UJ, Gronostajowa 7a, 30-387 Kraków | Poland<br>
+        NIP: 6762683727 | REGON: 540461266 | KRS: 0001145551 | VAT: PL6762683727
+    </footer>
+</body>
+</html>
