@@ -13,19 +13,19 @@
             color: #333;
         }
         header {
-            background: linear-gradient(to left, #6a0dad, #003366); /* Gradient from navy to purple */
+            background: linear-gradient(to left, #6a0dad, #003366);
             color: white;
             text-align: center;
             padding: 1rem 0;
             display: flex;
-            align-items: center; /* Center-align header text with logo */
-            justify-content: center; /* Center content horizontally */
-            gap: 1rem; /* Space between logo and text */
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
         }
         header img.logo {
             width: 150px;
-            filter: invert(1); /* Invert colors for a negative effect */
-            mix-blend-mode: screen; /* Blends well with dark background */
+            filter: invert(1);
+            mix-blend-mode: screen;
         }
         header h1 {
             margin: 0;
@@ -44,41 +44,97 @@
             color: #003366;
             font-weight: bold;
         }
-        .image-container {
+        .team {
+            display: table;
+            width: 100%;
+            margin-top: 1rem;
+            border-spacing: 20px;
+            table-layout: fixed; /* Ensures equal-width columns */
+        }
+        .team-header {
+            text-align: center;
+            margin-bottom: 1rem;
+            width: 100%;
+        }
+        .team-header h2 {
+            font-size: 1.8rem;
+            color: #6a0dad;
+        }
+        .team-row {
+            display: table-row;
+        }
+        .team-member {
+            display: table-cell;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            vertical-align: top;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .team-member img.photo {
+            width: 120px; /* Fixed size for consistent circular images */
+            height: 120px;
+            border-radius: 50%; /* Circular shape */
+            object-fit: cover;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Blurred border */
+            border: 4px solid white; /* Optional white border */
+        }
+        .team-member h3 {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        .team-member p {
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 1rem;
+            color: #6a0dad;
+        }
+        .company-logos {
             display: flex;
-            flex-wrap: wrap; /* Allow wrapping for responsiveness */
             justify-content: center;
-            align-items: center;
-            gap: 20px; /* Add space between logos */
-            margin-top: 20px;
+            gap: 10px;
+            margin-top: 1rem;
         }
-        .image-container img {
-            height: 100px;
+        .company-logos img {
+            height: 60px;
             object-fit: contain;
-            filter: grayscale(100%); /* Apply grayscale */
-            transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+            filter: grayscale(100%);
+            transition: filter 0.3s;
         }
-        .image-container img:hover {
-            filter: grayscale(0%); /* Remove grayscale on hover */
-            transform: scale(1.05); /* Slight zoom effect on hover */
+        .company-logos img:hover {
+            filter: grayscale(0%);
         }
         footer {
-            background: linear-gradient(to left, #6a0dad, #003366); /* Gradient from navy to purple */
+            background: linear-gradient(to left, #6a0dad, #003366);
             color: white;
             text-align: center;
             padding: 1rem 0;
             margin-top: 2rem;
         }
-        .logo2 {
-            height: 150px;
-            display: block;
-            margin: 0 auto 1rem;
-            filter: grayscale(100%);
-            transition: filter 0.3s ease, transform 0.3s ease;
-        }
-        .logo2:hover {
-            filter: grayscale(0%);
-            transform: scale(1.05);
+        @media (max-width: 768px) {
+            .team {
+                display: block;
+            }
+            .team-row {
+                display: block;
+            }
+            .team-member {
+                display: block;
+                margin: 0 auto 20px;
+                width: calc(100% - 40px);
+                box-sizing: border-box;
+            }
+            .team-member img.photo {
+                width: 80px; /* Adjusted size for smaller screens */
+                height: 80px;
+            }
         }
     </style>
     <script>
@@ -102,29 +158,55 @@
     <div class="container">
         <section class="intro">
             <p>
-                <span class="highlight">Fusiomica sp. z o.o.</span> is a biotechnology company specializing in the <span class="highlight">utilisation of protein engineering and AI</span> in <span class="highlight">drug discovery</span>. 
+                <span class="highlight">Fusiomica sp. z o.o.</span> is a biotechnology company specializing in the <span class="highlight">utilisation of protein engineering and AI</span> in <span class="highlight">drug discovery</span>.
                 Founded by experienced pharma/biotech managers with strong <span class="highlight">Cambridge links</span> and based in Kraków at the <span class="highlight"><a href="https://mcb.uj.edu.pl" target="_blank">Małopolskie Centrum Biotechnologii UJ</a></span>, we aim to bridge the Polish and Cambridge biotech environments.
             </p>
-            <p>
-                Our aim is to tackle the most challenging problems in drug discovery, leveraging <span class="highlight">novel technologies</span> and prior experience from the most distinguished <span class="highlight">academic</span> and <span class="highlight">commercial institutions</span>.
-            </p>
-
-                        <!-- Logo Section -->
-            <a href="https://astrazeneca.com"><img src="az1.png" alt="AstraZeneca" class="logo2"></a>
-            <div class="image-container">
-                <a href="https://www.tum.de" target="_blank"><img src="tum.gif" alt="Technical University Munich"></a>
-                <a href="https://www2.mrc-lmb.cam.ac.uk" target="_blank"><img src="lmb.png" alt="MRC Laboratory of Molecular Biology"></a>
-                <a href="https://www.oxford.ac.uk" target="_blank"><img src="oxford.webp" alt="Oxford University"></a>
-                <a href="https://www.biochem.mpg.de" target="_blank"><img src="mpi.png" alt="Max Planck Society"></a>
+        </section>
+        <div class="team-header">
+            <h2>Meet Our Founders</h2>
+        </div>
+        <section class="team">
+            <div class="team-row">
+                <div class="team-member">
+                    <img src="mark.png" alt="Founder 1" class="photo">
+                    <h3>Mark McAlister</h3>
+                    <p>Mark’s expertise in tackling complex drug discovery challenges, particularly in oncology and neuroscience, underpins his vision for this company. With over 15 years at AstraZeneca, Mark led the development of industry-leading protein engineering capability and cutting-edge biophysical and structural biology techniques (SPR, biomolecular NMR, HDX-MS). He also managed the AZ/MRC-LMB Blue Sky collaboration, which delivered over 40 research projects, two spin-out companies, and numerous high-impact publications. Prior AstraZeneca, he was a co-founder of Domainex, a company that has since become a successful player in the structure-based drug discovery. Mark invented combinatorial domain hunting technology and secured early-stage funding that laid the foundation for the company’s growth.</p>
+                    <p class="section-title">Work Experience:</p>
+                    <div class="company-logos">
+                        <a href="https://www.astrazeneca.com" target="_blank"><img src="az.png" alt="AstraZeneca"></a>
+                        <a href="https://www.domainex.co.uk" target="_blank"><img src="domainex.png" alt="Domainex"></a>
+                    </div>
+                    <p class="section-title">Education:</p>
+                    <div class="company-logos">
+                        <a href="https://www.oxford.ac.uk" target="_blank"><img src="oxford.webp" alt="Oxford University"></a>
+                        <a href="https://www.abdn.ac.uk" target="_blank"><img src="aberdeen.jpg" alt="University of Aberdeen"></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="michal.png" alt="Founder 2" class="photo">
+                    <h3>Michał Biśta</h3>
+                    <p>Michał is a co-founder of our company, combining deep expertise in structural biology, protein engineering, and drug discovery. Before joining us, Michał served as VP and Head of Structure, Fragments, and Biophysics at Captor Therapeutics, where he led teams responsible for recombinant protein production, structural biology, and molecular modelling. His work contributed to multiple R&D projects, including EU-funded grants and external collaborations. Earlier in his career, Michał spent over five years at AstraZeneca, supporting early drug discovery across oncology and other therapeutic areas. He played a key role in advancing 20 projects, including the development of the selective PARP1 inhibitor, saruparib (AZD5305), now in clinical trials. Michał is recognized for establishing innovative screening strategies and fostering research alliances with academia and industry.</p>
+                    <p class="section-title">Work Experience:</p>
+                    <div class="company-logos">
+                        <a href="https://www.captortherapeutics.com" target="_blank"><img src="captor.webp" alt="Captor Therapeutics"></a>
+                        <a href="https://www.astrazeneca.com" target="_blank"><img src="az.png" alt="AstraZeneca"></a>
+                    </div>
+                    <p class="section-title">Education:</p>
+                    <div class="company-logos">
+                        <a href="https://www2.mrc-lmb.cam.ac.uk" target="_blank"><img src="lmb.png" alt="MRC Laboratory of Molecular Biology"></a>
+                        <a href="https://www.biochem.mpg.de" target="_blank"><img src="mpi.png" alt="Max Planck Insitute of Biochemistry"></a>
+                    </div>
+                </div>
             </div>
-            <!-- End of Logo Section -->
+        </section>
+            <section class="intro">
             <p>For inquiries, please email us at: <span id="email">[email protected]</span></p>
         </section>
     </div>
-<footer>
-    <strong>Fusiomica sp. z o.o.</strong><br>
-    Szlak 77/222, 31-153 Kraków | MCB UJ, Gronostajowa 7a, 30-387 Kraków | Poland<br>
-    NIP: 6762683727 | REGON: 540461266 | KRS: 0001145551 | VAT: PL6762683727
-</footer>
+    <footer>
+        <strong>Fusiomica sp. z o.o.</strong><br>
+        Szlak 77/222, 31-153 Kraków | MCB UJ, Gronostajowa 7a, 30-387 Kraków | Poland<br>
+        NIP: 6762683727 | REGON: 540461266 | KRS: 0001145551 | VAT: PL6762683727
+    </footer>
 </body>
 </html>
