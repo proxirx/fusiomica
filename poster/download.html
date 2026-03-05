@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Download the Fusiomica conference poster." />
+  <title>Poster Ready | Fusiomica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="poster.css" />
+</head>
+<body>
+  <main class="download-wrap">
+    <section class="panel download-panel">
+      <div class="hero-art small" aria-hidden="true"></div>
+      <img src="../assets/heart/fusiomica-logo-dark.png" alt="Fusiomica logo" class="logo-main" />
+      <h1>Your poster is ready</h1>
+      <p>Click below to download the PDF.</p>
+      <a href="../Fusiomica_Elrig_McAlister.pdf" download class="download-btn">Download poster (PDF)</a>
+      <img src="../assets/heart/structure-anim.gif" alt="Animated protein structure from Fusiomica presentation" class="visual-structure compact" />
+      <p class="hint">If the download does not start automatically, use the button again.</p>
+    </section>
+  </main>
+
+  <script>
+    window.setTimeout(function () {
+      var link = document.querySelector('.download-btn');
+      if (link) link.click();
+    }, 700);
+  </script>
+</body>
+</html>

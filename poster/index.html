@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Download the Fusiomica conference poster after sharing your contact details." />
+  <title>Fusiomica Poster | Access</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="poster.css" />
+</head>
+<body>
+  <main class="page-wrap">
+    <section class="panel visual-panel">
+      <div class="hero-art" aria-hidden="true"></div>
+      <img src="../assets/heart/fusiomica-logo-dark.png" alt="Fusiomica logo" class="logo-main" />
+      <p class="kicker">Conference poster</p>
+      <h1>Download the Fusiomica poster</h1>
+      <p class="lead">
+        Share your name and email to access the PDF.
+        Each request sends a notification email to Fusiomica.
+      </p>
+      <img src="../assets/heart/structure-anim.gif" alt="Animated protein structure from Fusiomica presentation" class="visual-structure" />
+      <p class="asset-note">Poster file: <code>Fusiomica_Elrig_McAlister.pdf</code></p>
+    </section>
+
+    <section class="panel form-panel" aria-label="Poster lead form">
+      <h2>Get access</h2>
+      <form id="lead-form" action="https://formsubmit.co/contact@fusiomica.com" method="POST">
+        <input type="hidden" name="_subject" value="Poster download lead - Fusiomica" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" id="next-url" value="https://www.fusiomica.com/poster/download.html" />
+        <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" />
+
+        <label for="full-name">Full name</label>
+        <input id="full-name" name="name" type="text" required placeholder="Jane Doe" autocomplete="name" />
+
+        <label for="email">Work email</label>
+        <input id="email" name="email" type="email" required placeholder="name@company.com" autocomplete="email" />
+
+        <label class="consent">
+          <input type="checkbox" name="consent" value="yes" required />
+          <span>I agree to be contacted by Fusiomica about this poster.</span>
+        </label>
+
+        <button type="submit">Submit and continue</button>
+      </form>
+      <p class="hint">You will be able to download the poster in the next page.</p>
+    </section>
+  </main>
+
+  <script src="poster.js"></script>
+</body>
+</html>
