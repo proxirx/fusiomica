@@ -5,6 +5,14 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M810.444 199.181H962.117V234.18H906.444V385.852H866.117V234.18H810.444V199.181Z" fill="white" stroke="white" stroke-width="0.755906"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M472.441 199.181H595.956V234.18H512.428V275.528H588.435V310.186H512.428V351.194H596.107V385.852H472.441V199.181Z" fill="white" stroke="white" stroke-width="0.755906"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M107.981 377.65V315.326L63.3449 270.312L229.002 106.998V157.644H274.431V7.63465L266.683 0L0 270.312L107.981 377.65Z" fill="url(#paint0_linear_194_23)"/>
+
+<!-- Added EFEKT logo block near the lower section, alongside other partner marks -->
+<g transform="translate(638 272)">
+  <rect x="0" y="0" width="160" height="44" rx="12" fill="#0A62D6" opacity="0.94"/>
+  <path d="M17 13.5H47V18.5H17V13.5ZM17 27.5H47V32.5H17V27.5ZM32 8H50V38H32V33H42V28H32V23H42V18H32V13H42V8H32Z" fill="white"/>
+  <text x="60" y="28.5" fill="white" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" letter-spacing="0.5">EFEKT</text>
+</g>
+
 <defs>
 <linearGradient id="paint0_linear_194_23" x1="-14.7575" y1="323.569" x2="354.576" y2="-49.0987" gradientUnits="userSpaceOnUse">
 <stop stop-color="#014CAE"/>
