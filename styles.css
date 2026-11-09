@@ -651,6 +651,93 @@ li {
   width: auto;
 }
 
+.grant-project {
+  margin: 1.4rem auto 0;
+  max-width: 1040px;
+}
+
+#eu-funded {
+  scroll-margin-top: 82px;
+}
+
+.grant-project > h3 {
+  margin: 0;
+  font-size: clamp(1.08rem, 1.8vw, 1.35rem);
+}
+
+.grant-project-title-en {
+  margin: 0.35rem 0 1rem;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.grant-logo-strip {
+  display: block;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto 1.35rem;
+}
+
+.grant-logo-strip img {
+  width: 100%;
+}
+
+.grant-language-grid {
+  text-align: left;
+}
+
+.grant-language-card h4 {
+  margin: 0 0 0.65rem;
+  color: var(--accent-violet);
+  font-size: 1rem;
+}
+
+.grant-facts {
+  margin: 0.85rem 0;
+}
+
+.grant-facts div {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 0.8fr) minmax(0, 1.2fr);
+  gap: 0.7rem;
+  padding: 0.38rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.grant-facts dt {
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.grant-facts dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.grant-language-card .grant-funding-note {
+  margin-top: 0.85rem;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.grant-hashtags {
+  margin: 1rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+@media (max-width: 620px) {
+  .grant-logo-strip {
+    width: min(46vw, 180px);
+  }
+
+  .grant-facts div {
+    grid-template-columns: minmax(7.25rem, 1fr) minmax(0, 1.1fr);
+    gap: 0.9rem;
+  }
+}
+
 .contact-container {
   text-align: center;
 }
