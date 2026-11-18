@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="212" viewBox="0 0 560 212">
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#2c1945"/>
+      <stop offset="1" stop-color="#1d102f"/>
+    </linearGradient>
+    <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".6" fill="#ac8dcf" opacity=".34"/>
+    </pattern>
+  </defs>
+  <path d="M0 0h560v212H0z" fill="url(#background)"/>
+  <path d="M0 0h560v212H0z" fill="url(#grid)"/>
+  <path d="M24 19h512M24 193h512" fill="none" stroke="#ae96d2" stroke-opacity=".26" stroke-dasharray="3 5"/>
+  <g fill="none" stroke="#dca5e8" stroke-width="1.4" opacity=".48">
+    <path d="M163 72h48q17 0 17 15v9h52"/>
+    <path d="M163 140h48q17 0 17-15v-9h52"/>
+  </g>
+  <g fill="#ebd6f2" font-family="sans-serif" font-size="19">
+    <text x="28" y="78">Interaction A</text>
+    <text x="28" y="146">Interaction B</text>
+  </g>
+  <g fill="#f5a3e5">
+    <circle cx="163" cy="72" r="3"/>
+    <circle cx="163" cy="140" r="3"/>
+  </g>
+  <path d="M280 51h57a56 56 0 0 1 0 112h-57z" fill="#df91d3" fill-opacity=".13" stroke="#e8c7f1" stroke-width="1.7" stroke-linejoin="round"/>
+  <text x="328" y="114" fill="#f4c8ee" font-family="sans-serif" font-size="21" font-weight="600" text-anchor="middle">AND</text>
+  <path d="M395 107h70" fill="none" stroke="#e8a0e8" stroke-width="1.8"/>
+  <circle cx="395" cy="107" r="3" fill="#f5a3e5"/>
+  <rect x="465" y="91" width="78" height="32" rx="16" fill="#db79d0" fill-opacity=".22" stroke="#f0a4e6" stroke-width="1.4"/>
+  <text x="504" y="114" fill="#f4c8ee" font-family="sans-serif" font-size="19" font-weight="600" text-anchor="middle">Enrich</text>
+</svg>

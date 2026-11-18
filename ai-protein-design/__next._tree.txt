@@ -1,0 +1,6 @@
+:HL["/_next/static/css/26ee7795bd30adc3.css","style"]
+:HL["/_next/static/css/ae1dd2ace837bd87.css","style"]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"oc","k":"ai-protein-design","s":["_not-found","_global-error","pl","robots.txt","sitemap.xml"]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"(english)","h":131184,"c":"$Q2"}]]
+0:{"b":"_ys_v4MXzOb1tuRnkRBnw","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

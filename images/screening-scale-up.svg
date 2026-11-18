@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="280" viewBox="0 0 320 280" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="background">
+      <stop stop-color="#27153d"/>
+      <stop offset="1" stop-color="#211334"/>
+    </linearGradient>
+    <linearGradient id="culture" x2="0" y2="1">
+      <stop stop-color="#eb91d4" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#a560c9" stop-opacity=".13"/>
+    </linearGradient>
+    <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".6" fill="#ac8dcf" opacity=".34"/>
+    </pattern>
+  </defs>
+  <path d="M0 0h320v280H0z" fill="url(#background)"/>
+  <path d="M0 0h320v280H0z" fill="url(#grid)"/>
+  <path d="M0 20h320M0 260h320" fill="none" stroke="#ae96d2" stroke-opacity=".26" stroke-dasharray="3 5"/>
+  <g fill="none" stroke="#ac8ac4" stroke-width="1.5" stroke-linecap="round">
+    <path d="M0 145h34m-5-5 5 5-5 5" opacity=".75"/>
+    <path d="M149 145h39m-5-5 5 5-5 5"/>
+    <path d="M249 191h29q14 0 14-14v-18q0-14 14-14h11m-5-5 5 5-5 5"/>
+  </g>
+  <g fill="url(#culture)">
+    <path d="M60 149q14-7 29 0t32 0l21 34q7 12-8 12H47q-15 0-8-12z"/>
+    <rect x="212" y="124" width="30" height="29" rx="2"/>
+    <path d="M215 190h24v9h-24z"/>
+  </g>
+  <g fill="none" stroke="#e8c7f1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M76 79h30m-27 0v42l-40 62q-7 12 8 12h87q15 0 8-12l-40-62V79"/>
+    <path d="M77 85h27m-44 89h13m-13 7h7"/>
+    <path d="M207 85h40m-35 0v69h30V85m-35 69h40m-20 0v15m-12 6h24v24h-24z"/>
+    <path d="M213 124h28" opacity=".65"/>
+  </g>
+  <path d="M227 170q-6 7 0 8 6-1 0-8" fill="#f8a9e9"/>
+  <g fill="#e2d0ee" font-family="sans-serif" font-size="16" text-anchor="middle">
+    <text x="90" y="230">Expression flask</text>
+    <text x="227" y="230">Purification column</text>
+  </g>
+</svg>

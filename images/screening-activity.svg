@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="280" viewBox="0 0 320 280" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="background">
+      <stop stop-color="#211334"/>
+      <stop offset="1" stop-color="#1d102e"/>
+    </linearGradient>
+    <linearGradient id="response" x2="0" y2="1">
+      <stop stop-color="#ce84ca" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#bd76d0" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".6" fill="#ac8dcf" opacity=".34"/>
+    </pattern>
+  </defs>
+  <path d="M0 0h320v280H0z" fill="url(#background)"/>
+  <path d="M0 0h320v280H0z" fill="url(#grid)"/>
+  <path d="M0 20h320M0 260h320M0 20v240" fill="none" stroke="#ae96d2" stroke-opacity=".26" stroke-dasharray="3 5"/>
+  <g stroke="#af8ccb" stroke-width="1">
+    <path d="M60 78v119h217M60 109h217M60 139h217M60 169h217" fill="none" opacity=".35"/>
+    <path d="M60 78v119h217" fill="none" opacity=".86"/>
+    <g fill="#f1a6e8">
+      <circle cx="122" cy="60" r="6" fill-opacity=".16"/>
+      <circle cx="143" cy="60" r="6" fill-opacity=".30"/>
+      <circle cx="164" cy="60" r="6" fill-opacity=".44"/>
+      <circle cx="185" cy="60" r="6" fill-opacity=".59"/>
+      <circle cx="206" cy="60" r="6" fill-opacity=".77"/>
+      <circle cx="227" cy="60" r="6"/>
+    </g>
+  </g>
+  <path d="M71 179c42 0 62-2 80-25 18-24 20-47 49-55 24-7 52-7 75-7v105H71z" fill="url(#response)"/>
+  <path d="M71 179c42 0 62-2 80-25 18-24 20-47 49-55 24-7 52-7 75-7" fill="none" stroke="#f3a7ea" stroke-width="2.6" stroke-linecap="round"/>
+  <g fill="#e2d0ee" font-family="sans-serif" font-size="15">
+    <text x="175" y="44" text-anchor="middle">Dilution series</text>
+    <text x="42" y="144" text-anchor="middle" transform="rotate(-90 42 144)">Response</text>
+    <text x="170" y="229" text-anchor="middle">Concentration</text>
+  </g>
+</svg>

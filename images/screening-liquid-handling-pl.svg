@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="280" viewBox="0 0 320 280" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="background">
+      <stop stop-color="#2d1745"/>
+      <stop offset="1" stop-color="#27153d"/>
+    </linearGradient>
+    <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".6" fill="#ac8dcf" opacity=".34"/>
+    </pattern>
+  </defs>
+  <path d="M0 0h320v280H0z" fill="url(#background)"/>
+  <path d="M0 0h320v280H0z" fill="url(#grid)"/>
+  <path d="M0 20h320M0 260h320" fill="none" stroke="#ae96d2" stroke-opacity=".26" stroke-dasharray="3 5"/>
+  <g fill="none" stroke="#dca5e8" stroke-width="1.4" opacity=".48">
+    <path d="M0 66h38q15 0 15 15v79h25"/>
+    <path d="M0 107h25q15 0 15 15v49h38"/>
+    <path d="M0 169h29q15 0 15 13h34"/>
+    <path d="M0 217h42q16 0 16-15v-9h20"/>
+  </g>
+  <path d="M78 206V91q0-9 9-9h147q9 0 9 9v115M78 96h165M70 207h181v10H70z" fill="none" stroke="#9476b0" stroke-width="1.6" stroke-linejoin="round"/>
+  <g fill="#df91d3" fill-opacity=".16" stroke="#e8c7f1" stroke-width="1.6" stroke-linejoin="round">
+    <rect x="120" y="88" width="80" height="32" rx="5"/>
+    <path d="M127 120h14v22l-5 11h-4l-5-11zM153 120h14v22l-5 11h-4l-5-11zM179 120h14v22l-5 11h-4l-5-11z"/>
+    <path d="M101 181l15-12h91l13 12v18H101z"/>
+    <path d="M101 181h119m-106 9h12m16 0h12m16 0h12m16 0h12" fill="none"/>
+  </g>
+  <g fill="#f5a3e5">
+    <path d="M134 156q-7 8 0 10 7-2 0-10M160 156q-7 8 0 10 7-2 0-10M186 156q-7 8 0 10 7-2 0-10"/>
+    <ellipse cx="134" cy="175" rx="7" ry="2.5"/>
+    <ellipse cx="160" cy="175" rx="7" ry="2.5"/>
+    <ellipse cx="186" cy="175" rx="7" ry="2.5"/>
+  </g>
+  <path d="M220 190h35q15 0 15-15v-20q0-10 10-10h40" fill="none" stroke="#dca5e8" stroke-width="1.5" opacity=".66"/>
+  <text x="160" y="242" fill="#e2d0ee" font-family="sans-serif" font-size="16" text-anchor="middle">Automatyczne pipetowanie</text>
+</svg>

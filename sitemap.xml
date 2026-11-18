@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://www.fusiomica.com/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/pl/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/ai-protein-design/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/ai-protein-design/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/ai-protein-design/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/pl/ai-protein-design/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/ai-protein-design/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/ai-protein-design/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/technology/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/technology/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/technology/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/pl/technology/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/technology/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/technology/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/drug-discovery/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/drug-discovery/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/drug-discovery/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/pl/drug-discovery/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/drug-discovery/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/drug-discovery/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/team/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/team/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/team/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/pl/team/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/team/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/team/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/eu-funded-projects/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/eu-funded-projects/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/eu-funded-projects/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/pl/eu-funded-projects/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/eu-funded-projects/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/eu-funded-projects/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/contact/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/contact/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/contact/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.fusiomica.com/pl/contact/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://www.fusiomica.com/contact/" />
+<xhtml:link rel="alternate" hreflang="pl" href="https://www.fusiomica.com/pl/contact/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+</urlset>
